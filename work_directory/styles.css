@@ -1,3 +1,52 @@
-div{
-    color: red;
-}
+* {
+    box-sizing: border-box;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  div{
+    outline: 1px dotted;
+  }
+  .app_wrapper{
+    max-width:1200px;
+    margin: 0 auto;
+  }
+  /* header beging */
+  .header_container{
+    background-color: blue;
+    display: flex;
+  }
+  
+  .logo{
+    /* background-color: yellow; */
+    flex-basis: 5%;/*like width */
+    padding: 1%;
+  }
+    img{
+        width: 100%;
+        background-color: yellow;
+        /* margin: 10px; */
+    }
+  ul{
+    list-style: none;
+    display: flex;
+    flex-basis: 60%;
+    margin-left: 30%;
+    padding:1%
+  }
+  
+    li{
+        margin-left: 1%;
+        background-color: yellow;
+        flex-basis: 20%;
+        height: 2em;
+    }
+  /* header end */
+
+  /* .item{
+    width: calc(25% - 30px);
+    margin: 15px;
+} */
